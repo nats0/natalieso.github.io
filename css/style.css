@@ -76,7 +76,7 @@ a {
 }
 
 .color {
-    color: #049CCF;
+    color: #75C4C0;
     font-size: 11px;
 }
 
@@ -95,7 +95,7 @@ h3 {
 }
 
 h5 {
-    color: #049CCF;
+    color: #75C4C0;
 }
 
 
@@ -137,7 +137,7 @@ h5 {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #049CCF;
+    background-color: #75C4C0;
     opacity: 0.6;
     position: absolute;
     top: 0;
@@ -174,14 +174,14 @@ h5 {
 }
 
 
-/* headr
+/* header
 ==================================================*/
 
 .box-header {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.95);  /* MENU TEST 1*/
     height: 50px;
     width: 100%;
     z-index: 3;
@@ -208,7 +208,7 @@ h5 {
 .box-header.is-fixed {
     position: fixed;
     top: -80px;
-    background-color: rgba(255, 255, 255, 0.96);
+    background-color: rgba(255, 255, 255, 0.96); /* TEST 0 MAIN TOP BAR 255, 255, 255, 0.96 */
     -webkit-transition: -webkit-transform 0.3s;
     transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
@@ -221,7 +221,7 @@ h5 {
 }
 
 .box-header.menu-is-open {
-    background-color: rgba(255, 255, 255, 0.96);
+    background-color: rgba(255, 255, 255, 0.96); /* TEST 1.5 MAIN TOP BAR 255, 255, 255, 0.96 */
 }
 
 .box-logo {
@@ -235,7 +235,7 @@ h5 {
     top: 0;
     height: 100%;
     width: 50px;
-    background-color: #fff;
+    background-color: rgb(196, 95, 255); /* TEST 2 fff */
 }
 
 .box-primary-nav-trigger .box-menu-text {
@@ -245,7 +245,7 @@ h5 {
     display: none;
 }
 
-.box-primary-nav-trigger .box-menu-icon {
+.box-primary-nav-trigger .box-menu-icon { /*TEST MENU BOX */
     display: inline-block;
     position: absolute;
     left: 50%;
@@ -262,13 +262,13 @@ h5 {
     list-style: none;
 }
 
-.box-primary-nav-trigger .box-menu-icon::before,
+.box-primary-nav-trigger .box-menu-icon::before, 
 .box-primary-nav-trigger .box-menu-icon:after {
     content: '';
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: #393939;
+    background-color: #393939; /*MENU TEST 3 */
     right: 0;
     -webkit-transition: -webkit-transform .3s, top .3s, background-color 0s;
     -webkit-transition: top .3s, background-color 0s, -webkit-transform .3s;
@@ -385,7 +385,7 @@ h5 {
 }
 
 .box-primary-nav .box-label {
-    color: #049CCF;
+    color: #75C4C0;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 17px;
@@ -403,6 +403,29 @@ h5 {
     padding: 0;
     font-size: 30px
 }
+
+.box-primary-nav .behance {
+    display: inline-block;
+
+    width: 65px;
+    height: 30px;
+    
+    font-size: 30px;
+ }
+
+
+.box-primary-nav .soundcloud {
+    display: inline-block;
+
+    margin: -30px -.8em;
+
+    /* width: 0px;
+    height: 0px; */
+
+    font-size: 30px;
+
+    
+ }
 
 .box-primary-nav.is-visible {
     -webkit-transform: translateY(0);
@@ -439,7 +462,7 @@ h5 {
 }
 
 b i:nth-child(n+9):nth-child(-n+18) {
-    color: #049CCF !important;
+    color: #75C4C0 !important;
 }
 
 .box-intro h5 {
@@ -448,7 +471,6 @@ b i:nth-child(n+9):nth-child(-n+18) {
     color: #999;
     line-height: 1.7
 }
-
 
 /* mouse effect */
 
@@ -712,7 +734,7 @@ b i:nth-child(n+9):nth-child(-n+18) {
 
 .portfolio .categories-grid .categories ul li a.active {
     margin-left: 0;
-    background-color: #049CCF;
+    background-color: #75C4C0;
     padding: 0px 20px;
     color: white;
     border-radius: 25px;
@@ -774,7 +796,7 @@ b i:nth-child(n+9):nth-child(-n+18) {
     font-size: 20px;
     opacity: 0;
     /*display: inline-block;
-    background-color: #049CCF;
+    background-color: #75C4C0;
     padding: 5px 20px;
     border-radius: 25px;
     color: #333;
@@ -884,7 +906,7 @@ footer img {
 
 .no-touch .cd-top:hover,
 .no-touch .cd-top:focus {
-    background-color: #049CCF;
+    background-color: #75C4C0;
     opacity: 1;
     color: #fff;
 }
@@ -1046,7 +1068,7 @@ footer img {
 
 .input-contact > span.active,
 .textarea-contact > span.active {
-    color: #049CCF;
+    color: #75C4C0;
     font-size: 10px;
     top: 0px;
     left: 5px;
@@ -1067,7 +1089,7 @@ textarea:focus {
     height: 30px;
     width: 30px;
     display: inline-block;
-    background: #049CCF;
+    background: #75C4C0;
     text-align: center;
     line-height: 33px;
     margin-right: 10px;
@@ -1081,7 +1103,7 @@ textarea:focus {
 }
 
 .btn-box {
-    background: #049CCF;
+    background: #75C4C0;
     padding: 10px 50px;
     border-radius: 0;
     color: #fff;
